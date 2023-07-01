@@ -62,18 +62,25 @@
             <div class="container-fluid border-top border-bottom bg-light">
                 <div class="row px-2 px-sm-3 px-md-4 px-lg-5 py-5" id="links">
                     <div class="col-12 mb-5">
-                        <h4 class="text-center">Historias relacionadas</span></h4>
+                        <h4 class="text-center">Historias relacionadas</h4>
                     </div>
                 </div>
             </div>
         </aside>
         <!--pie de página-->
         <footer class="bg-dark">
-            <div class="container-fluid ">
+            <div class="container-fluid">
                 <div class="row px-2 px-sm-3 px-md-4 px-lg-5 py-4 small">
                     <div class="col-12">
                         <p class="m-0 small d-flex justify-content-between align-items-center">
-                            <a href="https://educacioncontinua.uc.cl/programas/diplomado-uc-online-infografia/" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank" rel="noopener noreferrer">Diplomado en Infografía digital</a>
+                            <a
+                                href="https://educacioncontinua.uc.cl/programas/diplomado-uc-online-infografia/"
+                                class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Diplomado en Infografía digital
+                            </a>
                             <a href="https://diseno.uc.cl/" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank" rel="noopener noreferrer">Escuela de Diseño</a>
                             <a href="https://www.uc.cl/" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank" rel="noopener noreferrer">Pontificia Universidad Católica de Chile</a>
                         </p>
@@ -174,7 +181,7 @@
                     account: "https://github.com/KathyVicencio",
                     mugshot: "https://avatars.githubusercontent.com/u/137964704?v=4",
                     final: "https://diplomado-infografia.github.io/katherine-vicencio/",
-                }
+                },
             ];
 
             var autoria = document.querySelector("#autoria");
@@ -184,7 +191,7 @@
                 '" alt="mugshot" class="w-100 rounded-circle"></div><div class="col-10"><p class="small text-body-secondary my-1">Historia visual por</p><h6 class="my-1 fs-5">' +
                 todes[0].author +
                 '</h6><p class="my-1">' +
-                todes[0].description +
+                todes[0].about +
                 "</p></div></div>";
             var links = document.querySelector("#links");
             todes.forEach((x, i) => {
