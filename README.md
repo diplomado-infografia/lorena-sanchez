@@ -1,3 +1,3 @@
 # lorena-sanchez
 
-![manifestacion-alto-maipo-03](https://github.com/diplomado-infografia/lorena-sanchez/assets/7999767/67142857-bcf4-4747-be67-75dfd4d41503)
+![Para meta datos2](https://github.com/diplomado-infografia/lorena-sanchez/assets/137964814/a06b1704-6f33-4364-8b03-c94114738292)
