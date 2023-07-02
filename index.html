@@ -18,7 +18,7 @@
         <meta property="twitter:url" content="https://metatags.io/" />
         <meta property="twitter:title" content="Adiestramiento ecuestre en los juegos Panamericanos " />
         <meta property="twitter:description" content="Es la forma más avanzada de entrenamiento equino, se basa en la relación entre el binomio de atletas equino-jinete, siendo considerada como el símil del ballet para los humanos" />
-        <meta property="twitter:image" content="https://github.com/diplomado-infografia/lorena-sanchez/assets/137964814/a06b1704-6f33-4364-8b03-c94114738292" />
+        <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
         <!-- Link al CSS de Boostrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
         <!-- Algo más de CSS para personalizar-->
@@ -56,6 +56,28 @@
                 font-weight: 600;
                 font-style: normal;
             }
+            /* la línea de tiempo */
+            #timeline {
+                height: 50vh;
+                width: 100%;
+                overflow-y: hidden;
+                overflow-x: scroll;
+            }
+            #timeline::-webkit-scrollbar {
+                height: 0.5rem;
+            }
+
+            #timeline::-webkit-scrollbar-track {
+                background: #eee;
+            }
+
+            #timeline::-webkit-scrollbar-thumb {
+                background: #ddd;
+            }
+
+            #timeline::-webkit-scrollbar-thumb:hover {
+                background: #ccc;
+            }            
         </style>
     </head>
     <body>
@@ -75,14 +97,191 @@
         </header>
         <!--la parte principal-->
         <main>
-            <!--llamaremos artículo a cada parte de la infografía-->
-            <article></article>
-            <!--llamaremos artículo a cada parte de la infografía-->
-            <article></article>
-            <!--llamaremos artículo a cada parte de la infografía-->
-            <article></article>
-            <!--llamaremos artículo a cada parte de la infografía-->
-            <article></article>
+            <!--la historia-->
+            <article>
+                <div class="container">
+                    <div class="row">
+                        <div class="mx-auto col-sm-11 col-md-10">
+                            <h3 class="text-center">Un poco de historia</h3>
+                            <p>El adiestramiento equino se remonta a los tiempos de la antigua Grecia, hace más de dos mil años, cuando se comenzaron a entrenar caballos para usarlos en el campo de batalla, la que se desarrrollo a lo largo de los siglos, continuando en la Edad Media, perfeccionandose el arte de la monta.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="timeline" class="mb-5">
+                    <object data="img/grafica-muy-ancha.svg" type="image/svg+xml" class="h-100"></object>
+                </div>
+            </article>
+            <!--¿Qué se evalúa?-->
+            <article>
+                <div class="container">
+                    <div class="row pt-3">
+                        <div class="mx-auto col-sm-11 col-md-10">
+                            <h3 class="text-center">¿Qué se evalúa?</h3>
+                            <p>Se da puntaje al trabajo del binomio equino-humano, en una serie de pruebas. Mujeres (amazonas) y hombres (jinetes) compiten por igual, con movimientos obligatorios y con una rutina de estilo libre.</p>
+                            <p>Las órdenes dadas al caballo deben ser imperceptibles, dando la impresión de que el animal realiza las acciones por voluntad propia.</p>
+                        </div>
+                    </div>
+                </div>
+                <figure class="px-md-5">
+                    <object data="img/grafica-cuadrada.svg" type="image/svg+xml" class="w-100"></object>
+                </figure>
+                <div class="container">
+                    <div class="row pb-3">
+                        <div class="mx-auto col-sm-11 col-md-10">
+                            <p>El caballo debe mostrarse tranquilo y obediente, valorando su ritmo, flexibilidad, contacto, impulso y fortaleza. Para evaluar la armonía del equino se puntúa la franqueza y regularidad de los aires y la cadencia del trote y el galope. El caballo siempre debe tener el cuello arqueado, elegante y elevado.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--El cuadrilongo-->
+            <article class="container">
+                <div class="row pt-3">
+                    <div class="mx-auto col-sm-11 col-md-10">
+                        <h3 class="text-center">El cuadrilongo</h3>
+                        <p>El cuadrilongo es la pista delimitada de doma donde se realizan los ejercicios. Cada movi-miento debe realizarse en la posición especifica de la letra asignada para ello. Cuatro jueces y un presidente del jurado otorgan una nota del 1 a 10 para cada ejercicio.</p>
+                        <figure class="my-2">
+                            <object data="img/grafica-ancha.svg" type="image/svg+xml" class="w-100"></object>
+                        </figure>
+                        <figure class="my-2">
+                            <object data="img/grafica-ancha.svg" type="image/svg+xml" class="w-100"></object>
+                        </figure>
+                    </div>
+                </div>
+            </article>
+            <!--ejercicios obligatorios-->
+            <article class="container">
+                <div class="row py-5">
+                    <div class="mx-auto col-sm-11 col-md-10">
+                        <h3 class="text-center">Ejercicios obligatorios</h3>
+                        <!--primera dupla de foto y texto-->
+                        <div class="row align-items-center my-2">
+                            <div class="col-md-6 order-md-2">
+                                <img src="img/grafica-ancha.svg" class="w-100" />
+                            </div>
+                            <div class="col-md-6 order-md-1">
+                                <dl>
+                                    <dt>El apoyo</dt>
+                                    <dd>El caballo avanza cruzando sus extremidades, siempre mirando en la dirección en la que va.</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <!--segunda dupla de foto y texto-->
+                        <div class="row align-items-center my-2">
+                            <div class="col-md-6">
+                                <img src="img/grafica-ancha.svg" class="w-100" />
+                            </div>
+                            <div class="col-md-6">
+                                <dl>
+                                    <dt>El passage</dt>
+                                    <dd>Trote lento con suspención alta y sin que el caballo avance.</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <!--tercera dupla de foto y texto-->
+                        <div class="row align-items-center my-2">
+                            <div class="col-md-6  order-md-2">
+                                <img src="img/grafica-ancha.svg" class="w-100" />
+                            </div>
+                            <div class="col-md-6  order-md-1">
+                                <dl>
+                                    <dt>El piafe</dt>
+                                    <dd>Trote elevado, pero sin moverse del piso.</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <!--cuarta dupla de foto y texto-->
+                        <div class="row align-items-center my-2">
+                            <div class="col-md-6">
+                                <img src="img/grafica-ancha.svg" class="w-100" />
+                            </div>
+                            <div class="col-md-6">
+                                <dl>
+                                    <dt>La pirueta</dt>
+                                    <dd>El caballo gira en 360º sin mover las patas traseras de su sitio.</dd>
+                                </dl>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+            <!--El récord de Chile-->
+            <article>
+                <div class="container">
+                    <div class="row pt-3">
+                        <div class="mx-auto col-sm-11 col-md-10">
+                            <h3 class="text-center">El récord de Chile</h3>
+                            <p>En 1949, el caballo llamado Huaso y su jinete Alberto Larraguibel, rompieron el récord del salto más alto realizado por un equino en el Concurso Ecuestre Internacional de Viña del Mar, Chile. Logrando un salto de 2,47 metros de altura, superando así el anterior récord de 2,44 metros. Esté récord se mantiene como imbatible hasta el día de hoy.</p>
+                            <figure class="my-2">
+                                <object data="img/grafica-ancha.svg" type="image/svg+xml" class="w-100"></object>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--Deportes ecuestres en su versión paraolímpica-->
+            <article>
+                <div class="container">
+                    <div class="row pt-3">
+                        <div class="mx-auto col-sm-11 col-md-10">
+                            <h3 class="text-center">Deportes ecuestres en su versión paraolímpica</h3>
+                            <p>El sistema de valoración valora los méritos y no la discapacidad en cada competecia. Adicio-nalmente se permite el uso de fustas, barras para conectar riendas y el uso de señales sonoras para jinetes ciegos.</p>
+                            <p>Los jinetes paraolímpicos se agrupan en grados según su discapacidad, lo que va acorde al grado de dificultad de los ejercicios a evaluar.</p>
+                        </div>
+                    </div>
+                </div>
+                <figure class="px-md-5">
+                    <object data="img/grafica-cuadrada.svg" type="image/svg+xml" class="w-100"></object>
+                </figure>
+            </article>
+            <!--Circulos para cada grado-->
+            <article class="container-fluid">
+                <div class="px-md-4 py-3 row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4">
+                    <div class="col h-100">
+                        <img src="img/grafica-cuadrada.svg" class="w-100" />
+                        <div class="p-2 text-center">
+                            <p class="small">Afectación severa de las cuatro extremidades y del tronco. General-mente usuarios de sillas de rueda o con marcha inestable.</p>
+                        </div>
+                    </div>
+                    <div class="col h-100">
+                        <img src="img/grafica-cuadrada.svg" class="w-100" />
+                        <div class="p-2 text-center">
+                            <p class="small">Afectación severa del tronco, pero mínima de los miembros superiores, o moderada de tronco, o miembros y superiores. Suelen usar silla de ruedas.</p>
+                        </div>
+                    </div>
+                    <div class="col h-100">
+                        <img src="img/grafica-cuadrada.svg" class="w-100" />
+                        <div class="p-2 text-center">
+                            <p class="small">Afectación severa de miembros inferiores, con afectación mínima de tronco, o moderada de las cuarto extremidades.</p>
+                        </div>
+                    </div>
+                    <div class="col h-100">
+                        <img src="img/grafica-cuadrada.svg" class="w-100" />
+                        <div class="p-2 text-center">
+                            <p class="small">Deficiencia severa de extremidades superiores o moderada de los cuatro miembros, o con baja estatura. Generalmente son capaces de caminar. En este grado también se inclu-yen las personas ciegas totales.</p>
+                        </div>
+                    </div>
+                    <div class="col h-100">
+                        <img src="img/grafica-cuadrada.svg" class="w-100" />
+                        <div class="p-2 text-center">
+                            <p class="small">Deficiencia muscular moderada, deficiencia ligera de una extremidad o moderada en dos de estas y aquellos con discapacidad visual.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--El récord de Chile-->
+            <article>
+                <div class="container">
+                    <div class="row pt-3">
+                        <div class="mx-auto col-sm-11 col-md-10">
+                            <h4 class="text-center">Adiestramiento equino en los paraolimpicos de Chile 2023</h4>
+                            <p>La competencia de adiestramiento equino en los paramericanos de Chile se realizarán en el Regimiento Granaderos, ubicado en Quillota, Región de Valparaiso. Entre el 04/10 y el 4/11. Las entradas son gratis para los menores de 15 años y los mayores de 65 años, para el resto de los interesados las entradas estarán disponibles por <a href="https://www.puntoticket.com/" target="_blank" rel="noopener noreferrer">Punto Ticket</a>.</p>
+                            <figure class="my-2">
+                                <object data="img/grafica-ancha.svg" type="image/svg+xml" class="w-100"></object>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </article>
         </main>
         <aside>
             <div class="container">
