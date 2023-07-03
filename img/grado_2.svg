@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1500 1500" style="enable-background:new 0 0 1500 1500;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#CD1719;stroke:#CD1719;stroke-width:2.4784;stroke-miterlimit:10;}
+	.st2{display:inline;opacity:0.8;fill:#CD1719;stroke:#CD1719;stroke-width:2.4784;stroke-miterlimit:10;}
+	.st3{display:inline;opacity:0.6;fill:#CD1719;stroke:#CD1719;stroke-width:2.4784;stroke-miterlimit:10;}
+	.st4{display:inline;opacity:0.4;fill:#CD1719;stroke:#CD1719;stroke-width:2.4784;stroke-miterlimit:10;}
+	.st5{display:inline;opacity:0.2;fill:#CD1719;stroke:#CD1719;stroke-width:2.4784;stroke-miterlimit:10;}
+	.st6{display:inline;fill:none;}
+	.st7{display:inline;fill:#1D1D1B;}
+	.st8{font-family:'ArialMT';}
+	.st9{font-size:29.7405px;}
+	.st10{opacity:0.2;fill:#CD1719;stroke:#CD1719;stroke-miterlimit:10;}
+	.st11{font-family:'Roboto-Regular';}
+	.st12{font-size:157px;}
+	.st13{opacity:0.4;fill:#CD1719;stroke:#CD1719;stroke-miterlimit:10;}
+	.st14{opacity:0.6;fill:#CD1719;stroke:#CD1719;stroke-miterlimit:10;}
+	.st15{opacity:0.8;fill:#CD1719;stroke:#CD1719;stroke-miterlimit:10;}
+	.st16{display:inline;fill:#CD1719;stroke:#CD1719;stroke-miterlimit:10;}
+	.st17{display:inline;}
+</style>
+<g id="Capa_1" class="st0">
+	<circle class="st1" cx="255.8" cy="660.9" r="102.8"/>
+	<circle class="st2" cx="577.2" cy="660.9" r="102.8"/>
+	<circle class="st3" cx="898.7" cy="660.9" r="102.8"/>
+	<circle class="st4" cx="1220.1" cy="660.9" r="102.8"/>
+	<circle class="st5" cx="1543.4" cy="658.7" r="102.8"/>
+	<rect x="205.1" y="636" class="st6" width="130.3" height="102.5"/>
+	<text transform="matrix(1 0 0 1 205.1094 657.2471)" class="st7 st8 st9">Grado I</text>
+	<rect x="529.8" y="636" class="st6" width="130.3" height="102.5"/>
+	<text transform="matrix(1 0 0 1 529.8301 657.2451)" class="st7 st8 st9">Grado II</text>
+	<rect x="851" y="641.5" class="st6" width="130.3" height="102.5"/>
+	<text transform="matrix(1 0 0 1 850.9961 662.7783)" class="st7 st8 st9">Grado III</text>
+	<rect x="1157.8" y="636" class="st6" width="130.3" height="102.5"/>
+	<text transform="matrix(1 0 0 1 1157.8027 657.2451)" class="st7 st8 st9">Grado IV</text>
+	<rect x="1494.1" y="641.4" class="st6" width="130.3" height="102.5"/>
+	<text transform="matrix(1 0 0 1 1494.1211 662.6611)" class="st7 st8 st9">Grado V</text>
+</g>
+<g id="Capa_2">
+	<g id="ii" class="st0">
+		<circle class="st10" cx="750" cy="752" r="449.5"/>
+		<text transform="matrix(1 0 0 1 501.2764 797.269)" class="st11 st12">Grado V</text>
+	</g>
+	<g id="ii_00000140721833338039650900000011890476052223028641_" class="st0">
+		<circle class="st13" cx="750" cy="752" r="449.5"/>
+		<text transform="matrix(1 0 0 1 501.2764 797.269)" class="st11 st12">Grado IV</text>
+	</g>
+	<g id="ii_00000047030622242052875620000014790420230099556531_" class="st0">
+		<circle class="st14" cx="731" cy="752" r="449.5"/>
+		<text transform="matrix(1 0 0 1 501.2764 797.269)" class="st11 st12">Grado III</text>
+	</g>
+	<g id="ii_00000123409256463405965440000008277898166307347376_">
+		<circle class="st15" cx="731" cy="752" r="449.5"/>
+		<text transform="matrix(1 0 0 1 501.2764 797.269)" class="st11 st12">Grado II</text>
+	</g>
+	<g id="i" class="st0">
+		<circle class="st16" cx="731" cy="752" r="449.5"/>
+		<text transform="matrix(1 0 0 1 501.2764 797.269)" class="st17 st11 st12">Grado I</text>
+	</g>
+	<g class="st0">
+	</g>
+</g>
+</svg>
